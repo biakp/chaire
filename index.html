@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="gray" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Chaire</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="description" content="Teste Auaha">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark" role="navigation">
+        <a class="navbar-brand" href="#"><img src="src/imgs/logo.png" alt="Chaire logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarToggle">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Vestidos
+                    </a>
+                    <div class="dropdown-menu three-col-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <div>
+                            <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                            <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                            <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                            <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                            <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                            <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                            <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                            <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                            <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                            <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                            <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Blusas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Calças
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Camisas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Shorts
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Saias
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Macaquinho
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Praia
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                        <a class="dropdown-item" href="#">SUBCATEGORIA</a>
+                    </div>
+                </li>
+            </ul>
+            <a class="nav-hot"> hot sale </a>
+            <!-- SEARCH -->
+            <div class="search-wrapper">
+                <div class="search-box">
+                    <p>Faça a busca do seu produto
+                        <img class="close" src="src/imgs/search-icon.png">
+                    </p>
+                </div>
+                <div class="open">
+                    <p>Busque</p>
+                    <img src="src/imgs/search-icon.png">
+                </div>
+            </div>
+            <!-- USER PANEL -->
+            <div class="user-panel">
+                <div class="user">
+                    <img src="src/imgs/user.png" alt="user icon">
+                    <div class="drop-user">
+                        <a class="drop-item" href="#">minha conta</a>
+                        <a class="drop-item" href="#">meus pedidos</a>
+                        <a class="drop-item" href="#">cadastrar</a>
+                    </div>
+                </div>
+                <div class="comment">
+                    <img src="src/imgs/comment.png" alt="comment icon">
+                    <div class="drop-comment">
+                        <p>
+                            <img src="src/imgs/phone.png" alt="phone icon" />
+                            <span class="">(11) 976672321</span>
+                        </p>
+                        <p>
+                            <img src="src/imgs/whats.png" alt="whatsapp icon" />
+                            <span class="">(11) 976672321</span>
+                        </p>
+                        <p>
+                            <img src="src/imgs/mail.png" alt="mail icon" />
+                            <span class="chaire-mail">hello@chaire.com.br</span>
+                        </p>
+                        <a href="#" class="talk-us">Clique aqui e fale conosco</a>
+                    </div>
+                </div>
+                <div class="cart">
+                    <img src="src\imgs\bag.png" alt="bag icon">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- MAIN BANNER -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="src/imgs/main-banner.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="src/imgs/main-banner.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="src/imgs/main-banner.jpg" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- CARDS -->
+    <div class="container">
+        <div class="row cards-row">
+            <div class="col card">
+                <img class="card-img" src="src/imgs/cards-red.jpg" alt="red credit cards">
+                <h5 class="cards-title">4X SEM JUROS</h1>
+                    <p class="cards-text">Compras no cartão de crédito</p>
+                    <p class="cards-bottom">*Parcela mínima de R$20,00</p>
+            </div>
+            <div class="col card">
+                <img class="card-img" src="src/imgs/truck-red.jpg" alt="red truck">
+                <h5 class="cards-title">FRETE GRÁTIS</h1>
+                    <p class="cards-text">Nas compras acima de R$ 199,90</p>
+                    <br>
+            </div>
+            <div class="col card">
+                <img class="card-img" src="src/imgs/barcode-red.jpg" alt="red barcode">
+                <h5 class="cards-title">5% DE DESCONTO</h1>
+                    <p class="cards-text">No pagamento à vista no boleto</p>
+                    <br>
+            </div>
+            <div class="col card">
+                <img class="card-img" src="src/imgs/change-red.jpg" alt="change red symbol">
+                <h5 class="cards-title">TROCA GARANTIDA</h1>
+                    <p class="cards-text">30 dias para realizar a primeira troca</p>
+                    <br>
+            </div>
+        </div>
+    </div>
+    <!--MINI BANNERS -->
+    <div class="container">
+        <div class="row mini-row">
+            <div class="col-sm-4 text-center">
+                <img src="src/imgs/mini1.jpg" class="img-fluid" alt="mini 1">
+            </div>
+            <div class="col-sm-4 text-center">
+                <img src="src/imgs/mini2.jpg" class="img-fluid" alt="mini 1">
+            </div>
+            <div class="col-sm-4 text-center">
+                <img src="src/imgs/mini3.jpg" class="img-fluid" alt="mini 1">
+            </div>
+        </div>
+    </div>
+    <!--BEST SELLERS -->
+    <div class="container text-left my-3">
+        <h3 class="text-center">Os mais vendidos</h3>
+        <div class="row mx-auto my-auto">
+            <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                <div class="carousel-inner w-100" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="src\imgs\shirt1.jpg">
+                                <h5>Blusa ciganinha Bordada Branca</h5>
+                                <p class="price-before">R$198,90</p>
+                                <p class="price-after">R$159,90</p>
+                                <p>ou<b> 10x </b>de<b> R$15,99 </b>s/juros</p>
+                            </div>
+                            <div id="overlay">
+                                <img src="src/imgs/hot-sale.png">
+                                <button type="button" class="btn btn-secondary product-details">
+                                    Ver detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="src\imgs\shirt2.jpg">
+                                <h5>Blusa ciganinha Bordada Branca</h5>
+                                <p class="price-before">R$198,90</p>
+                                <p class="price-after">R$159,90</p>
+                                <p>ou<b> 10x </b>de<b> R$15,99 </b>s/juros</p>
+                            </div>
+                            <div id="overlay">
+                                <img src="src/imgs/hot-sale.png">
+                                <button type="button" class="btn btn-secondary product-details">
+                                    Ver detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="src\imgs\shirt3.jpg">
+                                <h5>Blusa ciganinha Bordada Branca</h5>
+                                <p class="price-before">R$198,90</p>
+                                <p class="price-after">R$159,90</p>
+                                <p>ou<b> 10x </b>de<b> R$15,99 </b>s/juros</p>
+                            </div>
+                            <div id="overlay">
+                                <img src="src/imgs/hot-sale.png">
+                                <button type="button" class="btn btn-secondary product-details">
+                                    Ver detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="src\imgs\pants.jpg">
+                                <h5>Blusa ciganinha Bordada Branca</h5>
+                                <p class="price-before">R$198,90</p>
+                                <p class="price-after">R$159,90</p>
+                                <p>ou<b> 10x </b>de<b> R$15,99 </b>s/juros</p>
+                            </div>
+                            <div id="overlay">
+                                <img src="src/imgs/hot-sale.png">
+                                <button type="button" class="btn btn-secondary product-details">
+                                    Ver detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                    <img src="src\imgs\arrow.png" alt="">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next w-auto products-arrow" href="#recipeCarousel" role="button"
+                    data-slide="next">
+                    <img src="src\imgs\arrow.png" alt="">
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!--PROMOTIONS -->
+    <div class="container text-left my-3">
+        <h3 class="text-center">Nossas promoções</h3>
+        <div class="row mx-auto my-auto">
+            <div id="promotions" class="carousel slide w-100" data-ride="carousel">
+                <div class="carousel-inner w-100" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="src\imgs\shirt1.jpg">
+                                <h5>Blusa ciganinha Bordada Branca</h5>
+                                <p class="price-before">R$198,90</p>
+                                <p class="price-after">R$159,90</p>
+                                <p>ou<b> 10x </b>de<b> R$15,99 </b>s/juros</p>
+                            </div>
+                            <div id="overlay">
+                                <img src="src/imgs/hot-sale.png">
+                                <button type="button" class="btn btn-secondary product-details">
+                                    Ver detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="src\imgs\shirt2.jpg">
+                                <h5>Blusa ciganinha Bordada Branca</h5>
+                                <p class="price-before">R$198,90</p>
+                                <p class="price-after">R$159,90</p>
+                                <p>ou<b> 10x </b>de<b> R$15,99 </b>s/juros</p>
+                            </div>
+                            <div id="overlay">
+                                <img src="src/imgs/hot-sale.png">
+                                <button type="button" class="btn btn-secondary product-details">
+                                    Ver detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="src\imgs\shirt3.jpg">
+                                <h5>Blusa ciganinha Bordada Branca</h5>
+                                <p class="price-before">R$198,90</p>
+                                <p class="price-after">R$159,90</p>
+                                <p>ou<b> 10x </b>de<b> R$15,99 </b>s/juros</p>
+                            </div>
+                            <div id="overlay">
+                                <img src="src/imgs/hot-sale.png">
+                                <button type="button" class="btn btn-secondary product-details">
+                                    Ver detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="src\imgs\pants.jpg">
+                                <h5>Blusa ciganinha Bordada Branca</h5>
+                                <p class="price-before">R$198,90</p>
+                                <p class="price-after">R$159,90</p>
+                                <p>ou<b> 10x </b>de<b> R$15,99 </b>s/juros</p>
+                            </div>
+                            <div id="overlay">
+                                <img src="src/imgs/hot-sale.png">
+                                <button type="button" class="btn btn-secondary product-details">
+                                    Ver detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev w-auto" href="#promotions" role="button" data-slide="prev">
+                    <img src="src\imgs\arrow.png" alt="">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next w-auto products-arrow" href="#promotions" role="button"
+                    data-slide="next">
+                    <img src="src\imgs\arrow.png" alt="">
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!--NEW PRODUCTS -->
+    <div class="container text-left my-3">
+        <h3 class="text-center">Novidades</h3>
+        <div class="row mx-auto my-auto">
+            <div id="new-products" class="carousel slide w-100" data-ride="carousel">
+                <div class="carousel-inner w-100" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="src\imgs\shirt1.jpg">
+                                <h5>Blusa ciganinha Bordada Branca</h5>
+                                <p class="price-before">R$198,90</p>
+                                <p class="price-after">R$159,90</p>
+                                <p>ou<b> 10x </b>de<b> R$15,99 </b>s/juros</p>
+                            </div>
+                            <div id="overlay">
+                                <img src="src/imgs/hot-sale.png">
+                                <button type="button" class="btn btn-secondary product-details">
+                                    Ver detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="src\imgs\shirt2.jpg">
+                                <h5>Blusa ciganinha Bordada Branca</h5>
+                                <p class="price-before">R$198,90</p>
+                                <p class="price-after">R$159,90</p>
+                                <p>ou<b> 10x </b>de<b> R$15,99 </b>s/juros</p>
+                            </div>
+                            <div id="overlay">
+                                <img src="src/imgs/hot-sale.png">
+                                <button type="button" class="btn btn-secondary product-details">
+                                    Ver detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="src\imgs\shirt3.jpg">
+                                <h5>Blusa ciganinha Bordada Branca</h5>
+                                <p class="price-before">R$198,90</p>
+                                <p class="price-after">R$159,90</p>
+                                <p>ou<b> 10x </b>de<b> R$15,99 </b>s/juros</p>
+                            </div>
+                            <div id="overlay">
+                                <img src="src/imgs/hot-sale.png">
+                                <button type="button" class="btn btn-secondary product-details">
+                                    Ver detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-md-3">
+                            <div class="card card-body">
+                                <img class="img-fluid" src="src\imgs\pants.jpg">
+                                <h5>Blusa ciganinha Bordada Branca</h5>
+                                <p class="price-before">R$198,90</p>
+                                <p class="price-after">R$159,90</p>
+                                <p>ou<b> 10x </b>de<b> R$15,99 </b>s/juros</p>
+                            </div>
+                            <div id="overlay">
+                                <img src="src/imgs/hot-sale.png">
+                                <button type="button" class="btn btn-secondary product-details">
+                                    Ver detalhes
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev w-auto" href="#new-products" role="button" data-slide="prev">
+                    <img src="src\imgs\arrow.png" alt="">
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next w-auto products-arrow" href="#new-products" role="button"
+                    data-slide="next">
+                    <img src="src\imgs\arrow.png" alt="">
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!-- NEWSLETTER -->
+    <div class="container">
+        <div class="row newsletter">
+            <h4>FIQUE SEMPRE<br> POR DENTRO</h4>
+            <p>Cadastre o seu e-mail em nossa Newsletter e seja<br> sempre a primeira a receber nossas ofertas e
+                novidades</p>
+            <form>
+                <div class="col-auto">
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control" placeholder="Digite o seu e-mail">
+                        <div class="input-group-prepend">
+                            <button type="button" class="btn btn-secondary">
+                                <i class="fas fa-angle-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="social">
+                <p>Siga-nos </p>
+                <img src="src/imgs/fb-icon.jpg" alt="facebook icon">
+                <img src="src/imgs/insta-icon.png" alt="instagram icon">
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!-- FOOTER -->
+    <div class="container">
+        <div class="row footer">
+            <div class="footer-menu">
+                <h5 class="">Institucional</h5>
+                <a href="#">Empresa</a>
+                <a href="#">Cadastre-se</a>
+                <a href="#">Meus Pedidos</a>
+                <a href="#">Contato</a>
+            </div>
+            <div class="footer-menu">
+                <h5 class="">Dúvidas</h5>
+                <a href="#">Como Comprar</a>
+                <a href="#">Pagamento</a>
+                <a href="#">Prazos e Envios</a>
+                <a href="#">Garantia</a>
+                <a href="#">Troca</a>
+                <a href="#">Segurança</a>
+            </div>
+            <div class="footer-menu">
+                <div>
+                    <h5>Atendimento</h5>
+                    <div>
+                        <p>
+                            <img src="src/imgs/phone.png" alt="phone icon" />
+                            <span class="">(11) 976672321</span>
+                        </p>
+                        <p>
+                            <img src="src/imgs/whats.png" alt="whatsapp icon" />
+                            <span class="">(11) 976672321</span>
+                        </p>
+                        <p>
+                            <img src="src/imgs/mail.png" alt="mail icon" />
+                            <span class="chaire-mail">hello@chaire.com.br</span>
+                        </p>
+                        <a href="#" class="talk-us">Clique aqui e fale conosco</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-menu">
+                <h5 class="">Pagamento</h5>
+                <img class="payments" src="src/imgs/payments.png" />
+            </div>
+            <div>
+                <img class="fb-auaha" src="src/imgs/fb-auaha.PNG">
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!-- CREDITS -->
+    <div class="container">
+        <div class="row credits">
+            <small>Copyright © 2020 - www.chaire.com.br TODOS OS DIREITOS RESERVADOS</small>
+            <img src="src/imgs/tray-auaha.png" alt="auaha">
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
